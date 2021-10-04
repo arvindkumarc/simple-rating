@@ -1,6 +1,6 @@
 <h1>Products</h1>
-<ul>
+<ul class="products">
   <% @products.each do |product| %>
-    <li><%= product.title %></li>
+    <li class="item clickable"><%= product.title %></li>
   <% end %>
 </ul>

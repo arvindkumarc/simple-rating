@@ -1,3 +1,25 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.page {
+  max-width: 80rem;
+  margin: auto;
+  // border: 1px solid lightgray
+}
+
+.products {
+  border: 1px solid purple;
+  border-radius: 5px;
+  max-width: 10rem;
+  padding: 10px 10px;
+  list-style: none;
+}
+
+.item:not(:first-child) {
+    margin-top: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
